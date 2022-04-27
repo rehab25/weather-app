@@ -1,0 +1,47 @@
+body{
+  padding-top: 4rem; 
+  padding-bottom: 4rem;
+  background-image: url(../../images/sunshine.webp);
+  background-size:100% 100%;
+}
+.form{
+  background-color: #0000008f;
+  height: 80vh;
+  border-radius: 10%;
+}
+.text-main-color{
+  color: #f3f385;
+}
+.font-family{
+  font-family: 'Edwardian Script ITC';
+}
+.fs-h2{
+  font-size: 3.5rem;
+}
+.fs-Rec{
+  font-size: 1.5rem;
+
+}
+.w-40{
+  width: 40%;
+}
+.btn{
+  background-color:#061b32 !important;
+  color: #f3f385 !important;
+  transition: all 3s ease-in-out;
+}
+.btn:hover {
+  background-color:#051220 !important;
+}
+
+@media (max-width: 991px) { 
+  .fs-h2{
+    font-size: 2.5rem;
+  }
+  .w-40{
+    width: 60%;
+  }
+  .fs-Rec{
+    font-size: 1rem !important;
+  }
+ }
